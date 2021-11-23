@@ -1,0 +1,94 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: 0,65;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("Botnet-Server-Numbers-Skyrocketed-in-2019.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("tech-ge1e7b32dc_1920.jpg");
+    min-height: 100%;
+    
+}
+
+.bgimg-3 {
+    background-image: url("CybersecurityImage.jpeg");
+    min-height: 100%;
+}
+
+.bgimg-4 {
+    background-image: url("analytics-g62e452db7_1920.jpg");
+    min-height: 100%;
+}
+
+.bigtext{
+    font-size: 20px;
+    min-height: 100%;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+   .button1 {
+       color: black;
+       background-color: rgb(112, 112, 253);
+       position: absolute;
+       top: 0;
+       left: 0pt;
+   }
+
+   
+.navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    min-height: auto;}
+
+.navbar .navbar_items ul{
+    display: flex;
+    height: auto;
+    width: auto;}
+    
+.navbar .navbar_items ul li{
+    text-transform: uppercase;
+    margin: 0 10px;}
+    
+.navbar .navbar_items ul li a{
+    color: #fff;
+} 
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
